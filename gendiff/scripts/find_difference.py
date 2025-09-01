@@ -67,6 +67,3 @@ def find_diff(dict1, dict2):
             ans[key] = (changed, prev_val, new_val)
 
     return ans
-
-
-# .\.venv\Scripts\python.exe -m gendiff.scripts.find_difference
